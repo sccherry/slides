@@ -1,20 +1,20 @@
 {
-  "name": "static-starter",
+  "name": "slides",
   "private": true,
   "version": "1.0.0",
-  "description": "A starter template for building static sites.",
+  "description": "Slide decks for presentations I have given.",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "build:site": "eleventy --config eleventy.config.js",
-    "build": "npm run build:site -- --pathprefix static-starter",
+    "build": "npm run build:site -- --pathprefix slides",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build:site -- --serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sccherry/static-starter.git"
+    "url": "git+https://github.com/sccherry/slides.git"
   },
   "keywords": [
     "eleventy"
@@ -26,9 +26,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sccherry/static-starter/issues"
+    "url": "https://github.com/sccherry/slides/issues"
   },
-  "homepage": "https://github.com/sccherry/static-starter#readme",
+  "homepage": "https://github.com/sccherry/slides#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.2",

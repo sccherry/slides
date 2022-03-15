@@ -1,3 +1,3 @@
-# static-starter
+# slides
 
-A starter template for building static sites.
+Slide decks for presentations I have given.
