@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Slides | Slides</title>
+    <meta
+      name="description"
+      content="Introduction to JavaScript &amp;#x25B6; Who am I? Senior Web Developer for GW Libraries Developed websites since 2011 Contact:..."
+    />
+
+    <link rel="icon" href="/slides/public/img/favicon.ico" size="any" />
+    <link
+      rel="icon"
+      href="/slides/public/img/icon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/slides/public/img/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="/slides/public/img/icon-512.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Slides" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="manifest" href="/slides/site.webmanifest" />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="canonical" href="https://stevecherry.net/slides/javascript/" />
+
+    <link
+      rel="stylesheet"
+      href="https://stevecherry.net/normcore/css/normcore.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/themes/prism-solarizedlight.min.css"
+    />
+    <link rel="stylesheet" href="/slides/public/style.css" media="screen" />
+
+    <script
+      src="https://stevecherry.net/normcore/js/normcore.js"
+      defer
+    ></script>
+    <script src="/slides/public/script.js" defer></script>
+  </head>
+  <body>
+    
+
+
+
+
+  <div class="[ counter ] [ scale-2 snap-y stretch ]">
+    
+      <section id="introduction-to-javascript" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Introduction to JavaScript</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          
+        </div>
+
+        
+
+        
+          
+          <a href="#who-am-i" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="who-am-i" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Who am I?</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <ul>
+<li>Senior Web Developer for <a href="sccherry/javascript-workshop">GW Libraries</a></li>
+<li>Developed websites since 2011</li>
+<li>Contact: <a href="https://library.gwu.edu/user/2/contact">https://library.gwu.edu/user/2/contact</a></li>
+</ul>
+
+        </div>
+
+        
+          
+          <a href="#introduction-to-javascript" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#web-basics" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="web-basics" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Web basics</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <div class="flex gap">
+  <div class="flex-1">
+<ul>
+<li>HTML: structure</li>
+<li>CSS: styling</li>
+<li>JavaScript: functionality</li>
+</ul>
+</div>
+<div class="flex-1">
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Hello world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!-- import the webpage's stylesheet --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/style.css<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><br>    <span class="token comment">&lt;!-- add styles directly to the HTML --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css"><br>      <span class="token selector">body</span> <span class="token punctuation">{</span><br>        <span class="token property">font-family</span><span class="token punctuation">:</span> sans-serif<span class="token punctuation">;</span><br>      <span class="token punctuation">}</span><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!-- import the webpage's javascript file --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/script.js<span class="token punctuation">"</span></span> <span class="token attr-name">defer</span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><br>    <span class="token comment">&lt;!-- add javascript directly ot the HTML --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"><br>      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Hello world!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>    <span class="token comment">&lt;!-- this is the start of content --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Hello world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is a paragraph of content.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+</div>
+</div>
+
+        </div>
+
+        
+          
+          <a href="#who-am-i" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#what-can-javascript-do" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="what-can-javascript-do" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>What can JavaScript do?</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <ul>
+<li>User interaction: menu dropdowns, tabs, carousels</li>
+<li>Dynamically add content to page (Ajax)</li>
+<li>Data visualization (Plotly, D3.js)</li>
+<li>Applications (Instagram)</li>
+<li>Anything another programming language could do (Node.js)</li>
+</ul>
+
+        </div>
+
+        
+          
+          <a href="#web-basics" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#javascript-syntax-basics" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="javascript-syntax-basics" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>JavaScript syntax basics</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <ul>
+<li>Whitespace mostly doesn’t matter, except for readability</li>
+<li>Semicolons <code>;</code> end statements/lines</li>
+<li>Brackets {} group statements</li>
+<li>Comments can be <code>// Single line</code> or</li>
+</ul>
+<pre class="language-js"><code class="language-js"><span class="token comment">/*<br>Multi-line<br>*/</span></code></pre>
+<ul>
+<li>Use <code>console.log(SOMETHING);</code> to show values</li>
+</ul>
+
+        </div>
+
+        
+          
+          <a href="#what-can-javascript-do" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#data-types" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="data-types" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Data types</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <ul>
+<li>Strings (text): <code>'a string has quotes around it'</code></li>
+<li>Numbers: <code>1</code>, <code>-1</code></li>
+<li>Boolean: <code>true</code>, <code>false</code></li>
+<li>Arrays: <code>['a', 'list', 'of', 'other', 'values', true, 123]</code>
+<ul>
+<li>Get a specific value: <code>array[index] (eg. array[0] -&gt; 'a')</code></li>
+</ul>
+</li>
+<li>Objects: <code>{'key': 'value pairs', 'length': 2}</code>
+<ul>
+<li>Get a specific value: <code>object[key] (eg. object['length'] -&gt; 2)</code></li>
+</ul>
+</li>
+<li>Variables: <code>const varName = 1;</code>
+<ul>
+<li>Use <code>let</code> to reassign later (like in loops)</li>
+</ul>
+</li>
+<li>Functions: <code>function functionName(name) { return 'Hello ' + name; }</code>
+<ul>
+<li>Also arrow functions: <code>(name) =&gt; 'Hello ' + name;</code></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+
+        
+          
+          <a href="#javascript-syntax-basics" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#operators" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="operators" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Operators</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <ul>
+<li>Math: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>
+<ul>
+<li><code>1 + 2 -&gt; 3</code></li>
+<li><code>'Hello' + 'world' -&gt; 'Helloworld'</code></li>
+<li><code>'1' + 2 -&gt; '12'</code></li>
+</ul>
+</li>
+<li>Logical: <code>&amp;&amp;</code>, <code>||</code>
+<ul>
+<li><code>true &amp;&amp; false -&gt; false</code></li>
+<li><code>true || false -&gt; true</code></li>
+</ul>
+</li>
+<li>Equality: <code>===</code>, <code>!==</code>, <code>==</code>, <code>!=</code>
+<ul>
+<li><code>'1' === 1 -&gt; false</code></li>
+<li><code>'1' == 1 -&gt; true</code></li>
+<li><code>'1' !== 1 -&gt; true</code></li>
+<li><code>'1' != 1 -&gt; false</code></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+
+        
+          
+          <a href="#data-types" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#conditionals" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="conditionals" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Conditionals</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span>some statement that results <span class="token keyword">in</span> <span class="token boolean">true</span> or <span class="token boolean">false</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Do something if the condition is true</span><br><span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>another statement that is <span class="token boolean">true</span> or <span class="token boolean">false</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Do something if the new condition is true</span><br><span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span><br>  <span class="token comment">// Do something if the all conditions are false</span><br><span class="token punctuation">}</span></code></pre>
+
+        </div>
+
+        
+          
+          <a href="#operators" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#array-methods" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="array-methods" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Array methods</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <pre class="language-js"><code class="language-js"><span class="token keyword">const</span> nums <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">;</span><br><br><span class="token keyword">const</span> double <span class="token operator">=</span> nums<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token operator">=></span> value <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token operator">-</span><span class="token operator">></span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">14</span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">]</span><br><br><span class="token keyword">const</span> evens <span class="token operator">=</span> nums<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token operator">=></span> value <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token operator">-</span><span class="token operator">></span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span><br><br><span class="token keyword">const</span> sum <span class="token operator">=</span> nums<span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">prev<span class="token punctuation">,</span> value</span><span class="token punctuation">)</span> <span class="token operator">=></span> prev <span class="token operator">+</span> value<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token operator">-</span><span class="token operator">></span> <span class="token number">45</span></code></pre>
+
+        </div>
+
+        
+          
+          <a href="#conditionals" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#dom-events" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="dom-events" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>DOM/Events</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <pre class="language-js"><code class="language-js"><span class="token keyword">const</span> element <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token constant">CSS</span> <span class="token constant">SELECTOR</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token comment">// OR document.querySelectorAll(CSS SELECTOR);</span><br><br>element<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br>  <span class="token comment">// Do something when an event happens.</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+        </div>
+
+        
+          
+          <a href="#array-methods" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#build-something" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="build-something" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Build something</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <div class="flex gap">
+  <div class="flex-1">
+<ul>
+<li>Go to <a href="https://glitch.com/~fanatical-wild-blinker">https://glitch.com/~fanatical-wild-blinker</a></li>
+<li>Select “Remix your own” at bottom right</li>
+<li>Using Bulma for CSS</li>
+</ul>
+</div>
+<div class="flex-1">
+  <iframe
+    class="widescreen"
+    src="https://glitch.com/embed/#!/embed/fanatical-wild-blinker?path=README.md&previewSize=0"
+    title="fanatical-wild-blinker on Glitch"
+    allow="fullscreen"
+    allowfullscreen
+    style="width: 100%; border: 0;"
+  ></iframe>
+</div>
+</div>
+
+        </div>
+
+        
+          
+          <a href="#dom-events" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+          
+          <a href="#resources" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        
+      </section>
+    
+      <section id="resources" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>Resources</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          <ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></li>
+<li><a href="https://stackoverflow.com/questions">Stack Overflow</a></li>
+<li>Try online: <a href="https://stackoverflow.com/questions">glitch.com</a>, <a href="https://codepen.io">codepen.io</a>, <a href="https://jsfiddle.net">jsfiddle.net</a></li>
+<li>Use 3rd party libraries without downloading: <a href="https://www.jsdelivr.com">jsdelivr.com</a></li>
+</ul>
+
+        </div>
+
+        
+          
+          <a href="#build-something" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        
+
+        
+      </section>
+    
+  </div>
+
+
+
+
+    <script defer>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/slides/sw.js', {
+          scope: '/slides/',
+        });
+      }
+    </script>
+  </body>
+</html>

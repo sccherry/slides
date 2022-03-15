@@ -5,78 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Home | Static Starter</title>
+    <title>Slides | Slides</title>
     <meta
       name="description"
-      content="Hello world!"
+      content="Slides Slides JavaScript workshop Slide decks for presentations I have given."
     />
 
-    <link rel="icon" href="/static-starter/public/img/favicon.ico" size="any" />
+    <link rel="icon" href="/slides/public/img/favicon.ico" size="any" />
     <link
       rel="icon"
-      href="/static-starter/public/img/icon.svg"
+      href="/slides/public/img/icon.svg"
       type="image/svg+xml"
     />
     <link
       rel="apple-touch-icon"
-      href="/static-starter/public/img/apple-touch-icon.png"
+      href="/slides/public/img/apple-touch-icon.png"
     />
     <link
       rel="apple-touch-startup-image"
-      href="/static-starter/public/img/icon-512.png"
+      href="/slides/public/img/icon-512.png"
     />
-    <meta name="apple-mobile-web-app-title" content="Static Starter" />
+    <meta name="apple-mobile-web-app-title" content="Slides" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <link rel="manifest" href="/static-starter/site.webmanifest" />
+    <link rel="manifest" href="/slides/site.webmanifest" />
     <meta name="theme-color" content="#000000" />
 
-    <link rel="canonical" href="https://stevecherry.net/static-starter/" />
+    <link rel="canonical" href="https://stevecherry.net/slides/" />
 
     <link
       rel="stylesheet"
       href="https://stevecherry.net/normcore/css/normcore.css"
     />
-    <link rel="stylesheet" href="/static-starter/public/style.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/themes/prism-solarizedlight.min.css"
+    />
+    <link rel="stylesheet" href="/slides/public/style.css" media="screen" />
 
     <script
       src="https://stevecherry.net/normcore/js/normcore.js"
       defer
     ></script>
-    <script src="/static-starter/public/script.js" defer></script>
+    <script src="/slides/public/script.js" defer></script>
   </head>
   <body>
-    <div>
-      <header role="banner">
-        <a href="/static-starter/">Static Starter</a>
-      </header>
+    
+<div class="container cover stack">
+  <header role="banner">
+    <a href="/slides/">Slides</a>
+  </header>
 
-      <nav role="navigation">
-        <ul role="list">
-          
-          <li>
-            <a href="/static-starter/" aria-current="page">Home</a>
-          </li>
-          
-        </ul>
-      </nav>
+  <main class="flex-1 stack" role="main">
+    <h1>Slides</h1>
 
-      <main role="main">
-        <h1>Home</h1>
+    <ul>
+<li><a href="./javascript">JavaScript workshop</a></li>
+</ul>
 
-        <p>Hello world!</p>
+  </main>
 
-      </main>
+  <footer role="contentinfo">
+    <p>Slide decks for presentations I have given.</p>
+  </footer>
+</div>
 
-      <footer role="contentinfo">
-        <p>A starter template for building static sites.</p>
-      </footer>
-    </div>
 
     <script defer>
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/static-starter/sw.js', {
-          scope: '/static-starter/',
+        navigator.serviceWorker.register('/slides/sw.js', {
+          scope: '/slides/',
         });
       }
     </script>
