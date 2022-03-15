@@ -51,16 +51,6 @@
         <a href="{{ '/' | url }}">{{ site.name }}</a>
       </header>
 
-      <nav role="navigation">
-        <ul role="list">
-          {% for page in collections.all | eleventyNavigation %}
-          <li>
-            <a href="{{ page.url | url }}"{% if page.url == page.url %} aria-current="page"{% endif %}>{{ page.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-
       <main role="main">
         <h1>{{ title or site.name }}</h1>
 
