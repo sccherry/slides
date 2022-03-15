@@ -1,0 +1,7 @@
+---
+layout: slides
+---
+
+{% from "macros.njk" import slideDeck %}
+{% set slides = collections.javascript | sort(false, false, 'data.order') %}
+{{ slideDeck(slides) }}

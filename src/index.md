@@ -2,4 +2,4 @@
 layout: page
 ---
 
-Hello world!
+- [JavaScript workshop](./javascript)
