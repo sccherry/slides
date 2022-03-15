@@ -1,0 +1,27 @@
+{% macro slideDeck(list) %}
+  <div class="[ counter ] [ scale-2 snap-y stretch ]">
+    {% for item in list %}
+      <section id="{{ item.data.title | slugify }}" class="[ counter-item slide ] [ grid gap padding stretch relative ]">
+        <h2>{{ item.data.title }}</h2>
+
+        <div class="[ slide-content ] [ stack ]">
+          {{ item.templateContent | safe }}
+        </div>
+
+        {% if not loop.first %}
+          {% set prev = list | getPreviousCollectionItem(item) %}
+          <a href="#{{ prev.data.title | slugify }}" class="flex scale-3 show-on-hover" rel="prev">
+            <span>&#x25C0;</span>
+          </a>
+        {% endif %}
+
+        {% if not loop.last %}
+          {% set next = list | getNextCollectionItem(item) %}
+          <a href="#{{ next.data.title | slugify }}" class="flex scale-3 show-on-hover" rel="next">
+            <span>&#x25B6;</span>
+          </a>
+        {% endif %}
+      </section>
+    {% endfor %}
+  </div>
+{% endmacro %}

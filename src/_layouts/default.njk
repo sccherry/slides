@@ -37,6 +37,10 @@
       rel="stylesheet"
       href="https://stevecherry.net/normcore/css/normcore.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/themes/prism-solarizedlight.min.css"
+    />
     <link rel="stylesheet" href="{{ '/public/style.css' | url }}" media="screen" />
 
     <script
@@ -46,21 +50,7 @@
     <script src="{{ '/public/script.js' | url }}" defer></script>
   </head>
   <body>
-    <div>
-      <header role="banner">
-        <a href="{{ '/' | url }}">{{ site.name }}</a>
-      </header>
-
-      <main role="main">
-        <h1>{{ title or site.name }}</h1>
-
-        {{ content | safe }}
-      </main>
-
-      <footer role="contentinfo">
-        <p>{{ site.description }}</p>
-      </footer>
-    </div>
+    {{ content | safe }}
 
     <script defer>
       if ('serviceWorker' in navigator) {

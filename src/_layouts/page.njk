@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container cover stack">
+  <header role="banner">
+    <a href="{{ '/' | url }}">{{ site.name }}</a>
+  </header>
+
+  <main class="flex-1 stack" role="main">
+    <h1>{{ title or site.name }}</h1>
+
+    {{ content | safe }}
+  </main>
+
+  <footer role="contentinfo">
+    <p>{{ site.description }}</p>
+  </footer>
+</div>
